@@ -1,13 +1,1 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+This assignment was regarding the creation of a voting system based on blockchain technology. I have successfully created the smart contract for it which runs successfully on the local blockchain, but couldn't run it on a testnet since almost all of them are now deprecated (Goerli, Rinkeby, Kovan, Ropstan, etc.). 
