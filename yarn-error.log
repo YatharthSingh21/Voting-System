@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\yatha\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add --dev hardhat
+
+PATH: 
+  C:\Users\yatha\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\yatha\bin;C:\Python312\Scripts;C:\Python312;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet;C:\Users\yatha\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\yatha\AppData\Local\Programs\Python\Python39;C:\Users\yatha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yatha\AppData\Roaming\npm;C:\Users\yatha\.dotnet\tools;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.11.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/buffer-xor/-/buffer-xor-1.0.3.tgz: Request failed "304 Not Modified"
+      at ResponseError.ExtendableBuiltin (C:\Users\yatha\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:696:66)
+      at new ResponseError (C:\Users\yatha\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:802:124)
+      at Request.<anonymous> (C:\Users\yatha\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66215:16)
+      at Request.emit (node:events:518:28)
+      at module.exports.Request.onRequestResponse (C:\Users\yatha\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141767:10)
+      at ClientRequest.emit (node:events:518:28)
+      at HTTPParser.parserOnIncomingClient (node:_http_client:693:27)
+      at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17)
+      at TLSSocket.socketOnData (node:_http_client:535:22)
+      at TLSSocket.emit (node:events:518:28)
+
+npm manifest: 
+  {
+    "name": "Practice",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
