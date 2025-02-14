@@ -1,1 +1,1 @@
-This assignment was regarding the creation of a voting system based on blockchain technology. I have successfully created the smart contract for it which runs successfully on the local blockchain, but couldn't run it on a testnet since almost all of them are now deprecated (Goerli, Rinkeby, Kovan, Ropstan, etc.). 
+
